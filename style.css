@@ -1,14 +1,14 @@
 @font-face {
     font-family: sf;
-    src: url('/sf-pro-display/SFPRODISPLAYREGULAR.OTF');
+    src: url('sf-pro-display/SFPRODISPLAYREGULAR.OTF');
 }
 @font-face {
     font-family: sfm;
-    src: url('/sf-pro-display/SFPRODISPLAYMEDIUM.OTF');
+    src: url('sf-pro-display/SFPRODISPLAYMEDIUM.OTF');
 }
 @font-face {
     font-family: sfb;
-    src: url('/sf-pro-display/SFPRODISPLAYBOLD.OTF');
+    src: url('sf-pro-display/SFPRODISPLAYBOLD.OTF');
 }
 *{
     margin: 0;
