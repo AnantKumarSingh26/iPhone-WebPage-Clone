@@ -10,6 +10,7 @@
     font-family: sfb;
     src: url('sf-pro-display/SFPRODISPLAYBOLD.OTF');
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -34,6 +35,13 @@ html,body{
     font-family: sf;
     text-decoration: none;
     color: inherit;
+}
+.navbar a:hover{
+    background-color: rgb(193, 191, 191);
+    color: #fff;
+    border-radius: 1%;
+    /* padding: 5px; */
+    box-sizing: content-box;
 }
 .navbar i{
     font-size: 16px
