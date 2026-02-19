@@ -1,0 +1,193 @@
+.bungee-regular {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-vector/realistic-snowflake-border_23-2149230658.jpg?semt=ais_user_personalization&w=740&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: 32px;
+  background-color: rgb(249, 238, 230);
+  border-radius: 35px;
+  width: 90vw;
+  height: 90vh;
+}
+header {
+  display: grid;
+  grid-template-columns: 0.5fr 0.3fr 0.2fr;
+  grid-template-rows: 70px;
+  padding: 13px 42px;
+}
+.head1 h1 {
+  font-family: "bungee";
+  font-weight: 500;
+  /* border: 2px solid saddlebrown; */
+  color: rgb(138, 40, 43);
+}
+.head2,
+.head1,
+.head3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid saddlebrown; */
+}
+.head2 a {
+  font-family: Inter;
+  font-weight: 700;
+  color: rgb(138, 40, 43);
+  text-decoration: none;
+  /* border: 1px solid seagreen; */
+}
+.head3 {
+  justify-content: flex-end;
+}
+.head3 button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid rgb(138, 40, 43);
+  font-family: Inter;
+  color: rgb(138, 40, 43);
+  font-weight: 900;
+}
+main {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+}
+.left {
+  display: grid;
+  margin-left: 42px;
+}
+.left_top h1 {
+  font-family: trade winds;
+  font-size: 3.7vmax;
+}
+.left_bottom img {
+  mix-blend-mode: multiply;
+  height: 52vh;
+  background-color: transparent;
+}
+.right {
+  /* border: 2px solid; */
+  margin-right: 42px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "area-1  area-2  area-2  area-3  area-4  area-5"
+    "area-6  area-7  area-8  area-8  area-4  area-9"
+    "area-6  area-10 area-11 area-12 area-13 area-14"
+    "area-15 area-16 area-17 area-17 area-18 area-14"
+    "area-19 area-20 area-21 area-22 area-25 area-25"
+    "area-23 area-23 area-21 area-24 area-25 area-25";
+}
+.div1 {
+  grid-area: area-1;
+}
+.div2 {
+  grid-area: area-2;
+}
+.div3{
+     grid-area:area-3 ;
+}
+.div4{
+     grid-area:area-4 ;
+}
+.div5{
+     grid-area:area-5 ;
+}
+.div6{
+    grid-area: area-6;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBowUvmFV8w901w00yHQglSLOlc9p-Ue9YnQ&s');
+    background-position: center;
+}
+.div7{
+     grid-area:area-7 ;
+}
+.div8{
+     grid-area:area-8 ;
+}
+.div9{
+     grid-area:area-9 ;
+}
+.div10{
+     grid-area:area-10 ;
+}
+.div11{
+     grid-area:area-11 ;
+}
+.div12{
+    grid-area: area-12;
+}
+.div13{
+    grid-area: area-13;
+}
+.div14{
+    grid-area: area-14;
+}
+.div15{
+    grid-area: area-15;
+}
+.div16{
+    grid-area: area-16;
+}
+.div17{
+    grid-area: area-17;
+}
+.div18{
+    grid-area: area-18;
+}
+.div19{
+    grid-area: area-19;
+}
+.div20{
+    grid-area: area-20;
+}
+.div21{
+    grid-area: area-21;
+}
+.div22{
+    grid-area: area-22;
+}
+.div23{
+    grid-area: area-23;
+}
+.div24{
+    grid-area: area-24;
+}
+.div25{
+    grid-area: area-25;
+}
+.right div {
+  border: 2px solid;
+  border-radius: 5px;
+}
