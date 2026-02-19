@@ -97,10 +97,12 @@ header {
   color: #fff;
   font-size: 17px;
 }
+.main-3 div:nth-child(3) button:hover,
 .lm-button button:nth-child(2):hover,
 .right button:nth-child(2):hover {
-  background-color: #fff;
+  background-color: #fff9f900;
   color: #000;
+  box-shadow: 0 12px 24px rgba(17, 14, 14, 0.3);
 }
 
 main {
@@ -158,8 +160,8 @@ main {
   gap: 12px;
 }
 .main-2 {
-    /* height: 172px; */
-    grid-gap: 20px;
+  /* height: 172px; */
+  grid-gap: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
@@ -167,7 +169,7 @@ main {
   padding: 52px 13px;
 }
 .main-2 div {
-    gap: 12px;
+  gap: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -183,4 +185,75 @@ main {
   font-size: 29px;
   text-align: center;
   color: #534f4f;
+}
+.main-3 {
+  display: grid;
+  grid-template-rows: 3;
+  width: 100%;
+  border-radius: 25px;
+  background-color: rgb(247, 247, 248);
+  padding: 80px 7vw;
+  /* border: 1px solid saddlebrown; */
+  padding-bottom: 10px;
+}
+.expertise-button button {
+  padding: 15px 30px;
+  /* border: red; */
+  border-radius: 35px;
+  font-family: Inter;
+  font-size: 19px;
+  background-color: #fff;
+}
+.expertise-button button:hover {
+  border: 2px solid red;
+  color: red;
+}
+.expertise {
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.expertise p {
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #534f4f;
+}
+.exp{
+    font-size: 43px;
+    font-family: Inter ;
+    font-weight: 500;
+}
+
+.main-3 div:nth-child(3) {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* overflow: hidden; */
+  padding: 42px 0;
+  gap: 34px;
+}
+.main-3 div:nth-child(3) img {
+  height: 91vh;
+  border-radius: 30px;
+  object-fit: contain;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.main-3 div:nth-child(3) img:hover {
+  /* box-shadow: 0 12px 24px rgba(240, 35, 35, 0.3); */
+  transform: translateY(-8px);
+  z-index: 10;
+}
+.main-3 div:nth-child(3) button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-family: Inter;
+  font-size: 22px;
+  background-color: rgb(1, 96, 255);
+  color: #fff;
+  border: rgb(1, 96, 255);
 }
