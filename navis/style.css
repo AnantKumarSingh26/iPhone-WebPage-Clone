@@ -196,13 +196,14 @@ main {
   /* border: 1px solid saddlebrown; */
   padding-bottom: 10px;
 }
-.services,.expertise-button button {
+.expertise-button button,.protfolio-button button {
   padding: 15px 30px;
   /* border: red; */
   border-radius: 35px;
   font-family: Inter;
   font-size: 19px;
   background-color: #fff;
+  text-transform: uppercase;
 }
 .expertise-button button:hover {
   border: 2px solid red;
@@ -257,7 +258,7 @@ main {
   color: #fff;
   border: rgb(1, 96, 255);
 }
-.main-4{
+.main-4,.main-5{
    padding: 80px 7vw;
 }
 .service-button{
@@ -308,10 +309,78 @@ main {
     font-family: Inter;
     color: #534f4f;
 }
-
-
-
-
+.main-5{
+  background-color: rgb(247, 247, 248);
+  border-radius: 25px;
+}
+.middle-m5{
+    padding-top: 45px;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.2fr;
+    /* background-color: chocolate; */
+}
+.middle-m5 h6{
+    font-size: 60px;
+    font-family: Inter ;
+    font-weight: 500;
+}
+.middle-m5 button{
+    /* height: 30px; */
+    /* width: 160px; */
+    font-size: 20px;
+    padding: 12px 23px;
+    border-radius: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    background-color: rgb(1, 96, 255);
+    color: #fff;
+    border: none;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 12px;
+    padding-top: 45px;
+}
+.p1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.p1 img{
+    height: 61vh;
+    border-radius: 35px;
+    object-fit: cover;
+}
+.p1 h6{
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 500;
+}
+.p1 p{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5d5d5d;
+}
+.p1-button{
+    display: flex;
+    gap: 13px;
+}
+.p1-button  button{
+    padding: 10px 8px;
+    border-radius: 23px;
+    background-color: rgb(140, 173, 188);
+    color: #fff;
+    font-family: Inter;
+    text-transform: capitalize;
+    border: none;
+}
+.p1-button  button:hover{
+    background-color: burlywood;
+}
 
 
 
